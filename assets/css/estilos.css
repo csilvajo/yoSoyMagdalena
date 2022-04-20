@@ -1,0 +1,137 @@
+/*ESTILOS GLOBALES*/
+html {
+    scroll-behavior: auto !important;/*deshabilita el scroll de bootstrap cuando se clickea una opcion del menu*/    
+}
+
+body {
+    font-family: Helvetica;
+}
+
+/*ESTILOS DEL NAVBAR*/
+.navbar {
+    background-color: #660066;
+    position: fixed;/*se fija la barra de navegacion*/
+    width: 100vw;/*se recupera el ancho de la barra*/
+    z-index: 1;/*siempre se sobrepone sobre otros elementos*/
+}
+
+.navbar-brand {
+    /*se aplican estilos de tipografia al logo*/
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*ESTILOS DE LA SECCION HERO*/
+#Hero-Section {
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#Hero-Section div {
+    /*se posiciona verticalmente el texto de hero*/
+    position: absolute;
+    bottom: 45px;
+    /*se centra horizontalmente el texto de hero*/
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hero-line {
+    width: 345px;/*achicamos la linea de hero*/
+}
+
+#Hero-Section h1{
+    /*se aplican estilos de tipografia de hero*/
+    font-family: "Oswald";
+    font-size: 72px;    
+}
+
+#Hero-Section h1:first-child{
+    /*se aplican estilos de tipografia al primer titulo de hero*/
+    font-weight: 200;    
+}
+
+#Hero-Section h1:last-child{
+    /*se aplican estilos de tipografia al segundo titulo de hero*/
+    font-weight: 900;    
+}
+
+/*ESTILOS DE LA SECCION SOBRE MI*/
+#Sobre-mi {
+    color: #373A3C;
+    font-family: "Open Sans";
+    line-height: 3;
+}
+
+/*ESTILOS DE LA SECCION EXPERIENCIA*/
+#Experiencia div h1 {
+    font-family: "Oswald";
+    font-size: 52px;
+}
+
+#Experiencia i {
+    color: #660066;
+}
+
+#Experiencia div:last-child article h4:first-child {
+    font-family: "Oswald";
+}
+
+#Experiencia div:last-child article h4:last-child {
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+/*ESTILOS DE LA SECCION TRABAJOS*/
+#Trabajos {
+    background-color: #660066;
+    font-family: "Oswald";    
+}
+
+#Trabajos h1 {
+    font-size: 52px;
+}
+
+/*ESTILOS SECCION CONTACTO*/
+#Contacto h1{
+    font-family: "Oswald";
+    font-size: 52px;
+}
+
+/*ESTILOS SECCION PIE DE PAGINA*/
+#Footer {
+    background-color: #660066;
+}
+
+#Footer h1{
+    font-family: "Oswald";
+}
+
+#Footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/*ESTILOS PARA LA VENTANA MODAL*/
+.modal-header {
+    background-color: #660066;
+}
+
+.modal-header h5 {
+    font-family: "Oswald";
+    color: white;
+}
+
+.modal-header .modal-body p, ul {
+    font-family: "Oswald";
+}
+
+.modal-body li {
+    list-style: none;
+}

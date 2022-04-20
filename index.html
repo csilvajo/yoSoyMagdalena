@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Integracion de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Integracion de Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Integracion de tipografias de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Integracion de estilos locales -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menu de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">M</a>
+            <!-- Boton colapasble -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Opciones de la barra alineadas a la derecha-->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Sobre-mi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>                        
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Fin Menu de navegacion -->
+
+    <!-- Seccion Hero -->
+    <header id="Hero-Section">
+        <div class="container text-center text-white">
+            <h1>YO SOY</h1>
+            <hr class="hero-line mx-auto opacity-100">
+            <h1>MAGDALENA</h1>
+        </div>
+    </header>
+    <!-- Fin Seccion Hero -->
+
+    <!-- Seccion Mi Descripcion -->
+    <section id="Sobre-mi" class="pt-5 container d-none d-sm-block">
+        <div>
+            <h4 class="text-center fw-bold">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus corrupti voluptas dolorum amet
+                quibusdam saepe id, officiis sapiente sequi cum delectus omnis aliquid porro itaque earum repudiandae
+                iure praesentium ullam?
+            </h4>
+            <hr class="opacity-100 w-25 mx-auto">
+        </div>
+        <div class="row pt-3">
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni autem doloribus voluptatem, quod
+                    suscipit tempore natus cumque fuga minima impedit, labore quos eum animi eaque quam omnis velit.
+                    Eaque, sunt!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae libero, cumque aperiam maxime
+                    sint tempora consectetur eum sed sunt pariatur reiciendis iusto aliquam minus eveniet rerum
+                    doloribus quisquam porro.
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni autem doloribus voluptatem, quod
+                    suscipit tempore natus cumque fuga minima impedit, labore quos eum animi eaque quam omnis velit.
+                    Eaque, sunt!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae libero, cumque aperiam maxime
+                    sint tempora consectetur eum sed sunt pariatur reiciendis iusto aliquam minus eveniet rerum
+                    doloribus quisquam porro.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Mi Descripcion -->
+
+    <!-- Seccion Mi Experiencia -->
+    <section id="Experiencia" class="py-5 container text-center">
+        <div>
+            <h1 class="fw-bold text-uppercase">Mi Experiencia</h1>
+            <hr class="opacity-100 mx-auto w-25">
+            <div class="row pt-3">
+                <article class="col-12 col-sm-6">
+                    <i class="fa-brands fa-empire fa-10x" data-bs-toggle="tooltip" data-bs-placement="top" title="Stormtrooper"></i>
+                    <h4 class="fw-bold mt-3">Stormtrooper</h4>
+                    <h4>1980 - 2014</h4>
+                </article>
+                <article class="col-12 col-sm-6">                                       
+                    <i class="fa-solid fa-laptop-code fa-10x" data-bs-toggle="tooltip" data-bs-placement="top" title="Desarrolladora Rails"></i>
+                    <h4 class="fw-bold mt-3">Desarrolladora Rails</h4>
+                    <h4>2014 - 2018</h4>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Mi Experiencia -->
+
+    <!-- Seccion Mis Ultimos trabajos -->
+    <section id="Trabajos" class="py-5">
+        <div>
+            <h1 class="fw-bold text-center text-uppercase mt-2 text-white">Mis Últimos trabajos</h1>
+            <hr class="bg-white opacity-100 mx-auto w-25">
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/meet_coffee.png" alt="Meet and Coffee" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Meet & Coffee</h4>
+                            <p class="card-tex fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam blanditiis provident
+                                quaerat dolore consectetur illum consequuntur placeat perferendis, sunt doloribus
+                                repellendus atque corrupti quos voluptatum vitae. Consectetur in aperiam consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/iguana_page.png" alt="Iguana" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Iguana Page</h4>
+                            <p class="card-tex fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam blanditiis provident
+                                quaerat dolore consectetur illum consequuntur placeat perferendis, sunt doloribus
+                                repellendus atque corrupti quos voluptatum vitae. Consectetur in aperiam consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/suricata.png" alt="Suricata" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Suricata</h4>
+                            <p class="card-tex fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam blanditiis provident
+                                quaerat dolore consectetur illum consequuntur placeat perferendis, sunt doloribus
+                                repellendus atque corrupti quos voluptatum vitae. Consectetur in aperiam consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/cuppon.png" alt="Cuppon" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Cuppon</h4>
+                            <p class="card-tex fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam blanditiis provident
+                                quaerat dolore consectetur illum consequuntur placeat perferendis, sunt doloribus
+                                repellendus atque corrupti quos voluptatum vitae. Consectetur in aperiam consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/ricomida.png" alt="Ricomida" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Ricomida</h4>
+                            <p class="card-tex fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam blanditiis provident
+                                quaerat dolore consectetur illum consequuntur placeat perferendis, sunt doloribus
+                                repellendus atque corrupti quos voluptatum vitae. Consectetur in aperiam consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0">
+                        <img src="assets/img/dmark.png" alt="DMark" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">DMark</h4>
+                            <p class="card-tex fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam blanditiis provident
+                                quaerat dolore consectetur illum consequuntur placeat perferendis, sunt doloribus
+                                repellendus atque corrupti quos voluptatum vitae. Consectetur in aperiam consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Mis Ultimos trabajos -->
+
+    <!-- Seccion Contacto -->
+    <section id="Contacto" class="container text-center py-5">
+        <div class="mb-5">
+            <h1 class="fw-bold text-uppercase">Contacto</h1>
+            <hr class="opacity-100 w-25 mx-auto">
+        </div>
+        <div>
+            <p>¿Quiéres conocer más de mi?</p>
+            <a href="https://5xp36p5u6y6.typeform.com/to/SVaGjSZZ" target="_blank">
+                <button class="btn bg-secondary text-white">Comenzar</button>
+            </a>
+        </div>
+    </section>
+    <!-- Fin Seccion Contacto -->
+
+    <!-- Seccion de Pie de página -->
+    <footer id="Footer" class="text-center text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1 class="fw-bold text-uppercase">Magdalenna</h1>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <a href="#">
+                        <i class="fa-brands fa-github fa-3x mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin fa-3x mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter fa-3x mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-square fa-3x mx-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin Seccion de Pie de página -->
+
+    <!-- Ventana Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Acerca de la página "Mi Portafolio"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Landing Page responsiva construida con:</p>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                        <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fa-brands fa-bootstrap"></i> Bootstrap5</li>
+                        <li><i class="fa-brands fa-js"></i> JQuery</li>
+                        <li><i class="fa-brands fa-google"></i> Google Fonts</li>
+                        <li><i class="fa-brands fa-square-font-awesome"></i> Font Awesome</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar</button>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Integracion de JS de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Integracion de JS de JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Integracion de JS local -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
