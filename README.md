@@ -1,7 +1,7 @@
 # LandingPage
 Página web tipo LandingPage, con diseño responsivo.
 
-# Link para acceder a la págin
+# Link para acceder a la página
 https://csilvajo.github.io/yoSoyMagdalena/
 
 # Tecnologías
